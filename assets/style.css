@@ -114,10 +114,9 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   border-radius: 6px;
   background: var(--accent-sf);
   color: var(--accent);
-  font-weight: 700;
-  font-size: 13px;
   transition: transform 0.3s var(--ease);
 }
+.brand-mark svg { display: block; }
 .brand:hover .brand-mark { transform: rotate(-6deg) scale(1.1); }
 
 .filter {
